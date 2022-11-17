@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Editorial !ZAP!</title>
+        <link rel="shortcut icon" href="multimedia/favicon.ico" type="image/x-icon">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />   
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="../css/style.css">
+    
+    </head>
+    
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navEstilo">
+                <div class="container">
+                    <div>
+                        <a class="navbar-brand" href="index.html">
+                            <img src="/multimedia/favicon.png" alt="logo !Zap!" width="60" height="60">
+                        </a>
+                    </div>
+                    <button class="navbar-toggler navbar-light botonHamburguesa" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="/paginas/nosotros.html">Nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="/paginas/productos.html">Productos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="/paginas/contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <form class="d-flex">
+                        <button class="btn botonCarrito" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="bi bi-cart"></i>
+                            Carro
+                            <span class="badge bg-dark text-white ms-1 rounded-pill">1</span></button>
+    
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                            aria-labelledby="offcanvasRightLabel">
+                            <div class="offcanvas-header">
+                                <h5 id="offcanvasRightLabel">Tu Carrito</h5>
+                                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <div class="card">
+                                    <div class="card-body d-flex">
+                                        <div>
+                                            <p>Manga One Piece Español Tomo 2 East Blue</p>
+                                            <p>$8990</p>
+                                        </div>
+                                        <img src="/multimedia/Productos/Mangas/Onepiece.jpg" alt="Manga One piece" width="75" height="100">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-end border-top p-3 container ">
+                                <button type="button" class="btn  botonCarrito w-100"><a href="/paginas/productoHC1.html">Ir a comprar</a></button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </nav>
+        </header>
+    
+        <main>
+            <div class="container my-5">
+                <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+                    <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+                        <h1 class="display-4 fw-bold lh-1 pb-2">¿Quién somos? &nbsp;&nbsp; <span class="colorFont">Editorial Paz</span>
+                        </h1>
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum ullam expedita, nihil
+                            molestiae ratione non itaque esse magni optio amet distinctio numquam sunt deserunt vel
+                            explicabo dolor quasi placeat, repellendus, dicta error nostrum. Iusto quod accusamus aperiam.
+                            Repudiandae impedit dolorum officiis commodi eum, veniam molestias ducimus excepturi quam.
+                            Facere, magni? </p>
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+                            <a href="/paginas/productos.html"><button type="button"
+                                    class="btn btn-primary btn-lg px-4 me-md-2 fw-bold botonEstilo">Productos</button></a>
+                            <a href="/paginas/contacto.html"><button type="button"
+                                    class="btn btn-outline-secondary btn-lg px-4">Contacto</button></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+                        <img class="rounded-lg-3" src="/multimedia/favicon.png" alt="Logo editorial" width="430">
+                    </div>
+                </div>
+            </div>
+        </main>
+    
+        <section class="mainInicio">
+            <div class="container px-4 py-5" id="custom-cards">
+                <h2 class="pb-2 border-bottom">Reseñas</h2>
+                <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+
+                <!--Reseña n°1-->    
+                    <div class="col">
+                        <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" id="carta4">
+                            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" id="rese">Cliente 1</h2>
+                                <p class="rese">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, nulla? Dolorum reiciendis ratione commodi corrupti veniam voluptatum.</p>
+                            </div>
+                        </div>
+                    </div>
+                <!--Reseña n°2-->    
+                    <div class="col">
+                        <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" id="carta5">
+                            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" id="rese">Cliente 2</h2> 
+                                <p class="rese">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam qui eaque alias itaque consectetur ullam tenetur cupiditate distinctio neque.</p>                           
+                            </div>
+                        </div>
+                    </div>
+                <!--Reseña n°3-->
+                    <div class="col">
+                        <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" id="carta6">
+                            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" id="rese">Cliente 3</h2>
+                                <p class="rese">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod rem voluptas assumenda! Minus suscipit adipisci dolores nisi facilis iure? Fugit modi a architecto nihil voluptatibus impedit rem ducimus, velit eius!</p>
+                            </div>
+                        </div>
+                    </div>
+    
+    
+                </div>
+            </div>
+    
+        </section>
+    
+        <footer class="footerb footer_style">
+            <ul class="footerLista animacion">
+                <li><h3 class="footer_h3">Redes Sociales</h3></li>
+                <li class="link" ><a href="https://www.facebook.com">Facebook</a></li>
+                <li class="link"><a href="https://www.instagram.com">Instagram</a></li>
+                <li class="link"><a href="https://www.tiktok.com">Tik Tok</a></li>
+            </ul>
+            <ul class="footerLista animacion">
+                <li><h3 class="footer_h3">Contacto</h3></li>
+                <li class="link">Wsp: +569 555 555 55</li>
+            </ul>
+        </footer>
+
+        <aside>
+
+        </aside>
+    
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+            integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+            integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+            crossorigin="anonymous"></script>
+    </body>
+</html>

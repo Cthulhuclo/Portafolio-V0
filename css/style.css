@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.colorFont {
+    color: #96305a;
+}
+/* ------------------------------ HEADER ------------------------------------------ */
+
+.navEstilo {
+    background: rgb(51,0,0);
+    background: linear-gradient(340deg, rgba(51,0,0,1) 0%, rgba(98,22,47,1) 100%);
+}
+
+.botonHamburguesa {
+    background-color: #742646;
+}
+
+.botonCarrito {
+    background-color: #bd5f86;
+    color: white;
+}
+
+.botonCarrito:hover {
+    background-color: #e472a2;
+    color: white;
+}
+
+.btn:focus {
+    box-shadow: 0 0 0 0.25rem #742646;
+}
+
+
+.btn:active {
+    box-shadow: 0 0 0 0.25rem #742646;
+}
+
+.nav-link:hover {
+    color: #ca678e;
+}
+
+.navEstilo a{
+    color: white;
+}
+
+.nav-item {
+    padding-left: 30px;
+}
+
+
+.link {
+    text-decoration: none;
+    color: #fed5e6;
+}
+
+.padding {
+    padding-left: 7rem;
+}
+
+a {
+    text-decoration: none;
+    color: #fed5e6;
+    list-style: none;
+    color: white;
+}
+
+a:hover {
+    color: rgb(38, 62, 183);
+}
+
+.border-bottom {
+    border-bottom: 1px solid #8a3b8b36!important;
+}
+
+.favicon {
+    width: 5%;
+    height: auto;
+}
+/* -------------------------------------------------------------------------------- */
+
+/* ------------------------------ MAIN -------------------------------------------- */
+
+.botonEstilo {
+    background-color: #96305a;
+    border-color: #96305a;
+}
+
+.botonEstilo:hover {
+    background-color: #742646;
+    border-color: #742646;
+}
+
+.mainInicio {
+    background: rgb(202,103,142);
+    background: linear-gradient(340deg, rgba(202,103,142,0.7682423311121324) 0%, rgba(255,159,197,0.4265056364342612) 100%);
+}
+
+.carruselProductos {
+    width: 100%;
+    height: 36rem;
+    object-fit: cover;
+    background-color: #501f5024;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.381);
+}
+
+.img {
+    width: 100%;
+    height: 37rem !important;
+    object-fit: none;
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+}
+
+.imgProducto {
+    width: 100%;
+    height: 35rem !important;
+    object-fit: none;
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+}
+
+.productoFont {
+    font-size: 3rem;
+}
+
+.desaparecer2 {
+    visibility: hidden;
+    height: 4rem;
+}
+
+.precio {
+    font-size: larger;
+}
+
+#carta {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(/multimedia/sectionIndex1.jpg); 
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+
+#carta2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(/multimedia/sectionIndex2.jpg); 
+    background-size:100%;
+    background-repeat: no-repeat;
+
+}
+
+#carta3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(/multimedia/sectionIndex3.jpg); 
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+
+#carta4 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(/multimedia/Cthulhu.png); 
+    background-size:110%;
+    background-repeat: no-repeat;
+}
+
+#carta5 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(/multimedia/Naruto.png); 
+    background-size:110%;
+    background-repeat: no-repeat;
+}
+
+#carta6 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(/multimedia/Ruvius.png); 
+    background-size:110%;
+    background-repeat: no-repeat;
+}
+
+#carta:hover , #carta2:hover , #carta3:hover ,
+#carta4:hover , #carta5:hover , #carta6:hover {
+    background-size: 120%;
+    transition: .6s;
+    cursor: pointer;
+}
+
+#horror:hover , #fantasia:hover , #manga:hover {
+    transform: scale(1.2);
+    transition: .4s;
+}
+
+.rese {
+    text-align: justify;
+    font-size: .9rem;
+    margin-top: 6rem;
+}
+
+#rese {
+    font-size: 1.2rem;
+    text-align: justify;
+    
+}
+
+#cat {
+    padding: 0 8rem 8rem 0;
+    font-size: 1.75rem;
+}
+/* -------------------------------------------------------------------------------- */
+
+/* ------------------------------ Section -------------------------------------------- */
+
+.desaparecer {
+    visibility: hidden;
+    height: 15rem;
+}
+
+#estiloCategoria1 {
+    background-image: linear-gradient(165deg, rgba(28,36,38,1) 0%, rgba(72,106,97,0.9363095580028886) 100%), url(../multimedia/imgCategoria1.jpg); background-size:cover;
+}
+
+#estiloCategoria2 {
+    background-image: linear-gradient(165deg, rgba(150,92,11,0.8046568969384629) 0%, rgba(192,0,255,0.7122199221485469) 100%), url(../multimedia/imgCategoria2); background-size:cover;background-repeat: no-repeat
+    ;
+}
+
+#estiloCategoria3 {
+    background-image: linear-gradient(165deg, rgba(150,11,11,1) 0%, rgba(255,197,0,0.7122199221485469) 100%), url(../multimedia/imgCategoria3.jpg); background-size:cover;
+}
+/* -------------------------------------------------------------------------------- */
+
+/* ------------------------------ FOOTER -------------------------------------------- */
+
+.footerInicio {
+    background-color: #62162f;
+}
+
+
+.footerb {
+    display: flex;
+    justify-content: space-evenly;
+    width: auto;
+    padding: 20px;
+}
+
+.footerLista {
+    list-style: none;
+}
+
+.footer_style {
+    background: rgb(98,22,47);
+    background: linear-gradient(340deg, rgba(98, 22, 47, 0.984) 0%, rgba(150, 48, 90, 0.984) 100%);
+    color: #ffbaaf;
+}
+
+.footer_h3 {
+    padding-bottom: 15px;
+}
+
+.redes {
+    position: fixed;
+    bottom: 43%;
+    right: 0px;
+}
+
+.redes img{
+    display: block;
+    width: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        height: 550px;
+        font-size: 40px;
+    }
+
+    .footer_h3 {
+        padding-bottom: 70px;
+    }
+
+    .width_footer {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .redes {
+        display: none;
+    }
+
+}
+/* -------------------------------------------------------------------------------- */
+/* ------------------------------ TABLAS ------------------------------------------- */
+
+
+
+/* -------------------------------------------------------------------------------- */
+/* ------------------------------ FORMULARIO -------------------------------------- */
+
+
+
+/* -------------------------------------------------------------------------------- */
